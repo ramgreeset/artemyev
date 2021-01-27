@@ -1,0 +1,79 @@
+.header__inner {
+    background: url('../../img/bg/bgbg.jpg') 50% 0% no-repeat;
+    height: 190px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    font-size: 22px;
+
+
+    .fab {
+        width: 30px;
+        height: 30px;
+        margin: 0 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transition: all .2s linear;
+    }
+
+    .fa-vk {
+        font-size: 21px;
+
+        &:hover {
+            color: #fff;
+            background-color: rgb(81, 129, 184);
+        }
+    }
+
+    .fa-telegram-plane {
+        &:hover {
+            color: #fff;
+            background-color: rgb(48, 163, 230);
+        }
+    }
+
+    .fa-instagram {
+        &:hover {
+            color: #fff;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
+    }
+
+    .fa-whatsapp {
+        &:hover {
+            color: #fff;
+            background-color: rgb(42, 196, 77);
+        }
+    }
+}
+
+
+.nav {
+    background-color: rgba(161, 159, 159, 0.089);
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        font-size: 20px;
+        transition: text-shadow .4s;
+
+        &:hover {
+            text-shadow: 0 0 .90px rgb(0, 0, 0);
+            transition: text-shadow .2s;
+        }
+    }
+}
+
+.main {
+    background: url('../../img/bg/beliy-ekran-10-1280x720.png') 50% 50%/cover no-repeat;
+    height: 400px;
+}
