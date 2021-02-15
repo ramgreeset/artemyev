@@ -1,14 +1,17 @@
 @import "base/mixins";
 @import "base/variables";
 @import "blocks/header";
-@import "blocks/navigation";
+@import "blocks/work";
+
 
 
 body{
-    font-family: 'Balsamiq Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html{
+    background-color: #$background-color);
+    // background: url('https://wallpapershome.ru/images/wallpapers/cherep-3840x2160-risunok-uzori-tatu-280.jpg');
     box-sizing: border-box;
 }
 
@@ -31,8 +34,9 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
 .container{
-    width: 1070px;
+    max-width: 1700px;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.959);
 
 
 }

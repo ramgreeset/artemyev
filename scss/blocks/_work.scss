@@ -1,0 +1,28 @@
+.work{
+    margin-top: 15px;
+
+    &_1{
+        max-width: 500px;
+        margin: 15px;
+        // object-fit: cover;
+        // object-position: center;
+    }
+
+    .portfolio{
+        text-transform: capitalize;
+        font-variant: small-caps;
+        padding:10px 0 10px 60px;
+        text-decoration: underline;
+        font-size: 40px;
+    }
+
+    &__inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    &__image{
+        width: 100%;
+        background-color: rgba(17, 1, 1, 0.486);
+    }
+}
