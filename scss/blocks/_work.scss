@@ -1,13 +1,25 @@
 .work{
     margin-top: 15px;
-
-    &_1{
-        max-width: 500px;
-        margin: 15px;
-        // object-fit: cover;
-        // object-position: center;
+    &__inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
-
+    
+    &_1{
+        margin: 15px;
+    }
+    
+    &__image{
+        display: block;
+        background-color: rgba(17, 1, 1, 0.486);
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        &:hover{
+            transform: scale(1.02);
+        }
+    }
     .portfolio{
         text-transform: capitalize;
         font-variant: small-caps;
@@ -16,13 +28,4 @@
         font-size: 40px;
     }
 
-    &__inner{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    &__image{
-        width: 100%;
-        background-color: rgba(17, 1, 1, 0.486);
-    }
 }
