@@ -10,8 +10,8 @@ body{
 }
 
 html{
-    background-color: #$background-color);
-    // background: url('https://wallpapershome.ru/images/wallpapers/cherep-3840x2160-risunok-uzori-tatu-280.jpg');
+    // background-color: $background-color;
+    background: url('https://avatanplus.com/files/resources/original/5bd7353b1101f166c0a7eebe.png');
     box-sizing: border-box;
 }
 
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6{
 .container{
     max-width: 1700px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.959);
+    background-color: rgba(255, 255, 255, 0.911);
 
 
 }
