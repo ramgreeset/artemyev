@@ -1,26 +1,42 @@
-.work{
+.portfolio {
     margin-top: 15px;
-    &__inner{
+
+    &__title {
+        text-transform: capitalize;
+        font-variant: small-caps;
+        padding: 10px 0 10px 85px;
+        text-decoration: underline;
+        font-size: 40px;
+    }
+
+    &__wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
+}
+
+.portfolio__card {
+    position: relative;
+    margin: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.13);
+
+    &:hover .portfolio__card-descr {
+        transform: translateY(-100%);
+        background-color: rgba(251, 253, 255, 0.938);
+        transition: 0.3s all;
     
-    &_1{
-        position: relative;
-        margin: 15px;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
-        overflow: hidden;
-        &:hover .descr{
-            transform: translateY(-100%);
-            background-color: rgba(251, 253, 255, 0.938);
-            transition: 0.3s all;
-        }
-        
     }
-    
-    &__image{
+
+    &-title {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin-top: 5px;
+    }
+
+    &-image {
         display: block;
         background-color: rgba(17, 1, 1, 0.486);
         width: 500px;
@@ -29,7 +45,7 @@
         object-position: top;
     }
 
-    .descr{
+    &-descr {
         width: 500px;
         height: 300px;
         position: absolute;
@@ -37,19 +53,5 @@
         transition: 0.3s all;
         background-color: rgba(215, 213, 222, 0.966);
 
-        &__title{
-            text-align: center;
-            color: rgb(0, 0, 0);
-        }
     }
-
-
-    .portfolio{
-        text-transform: capitalize;
-        font-variant: small-caps;
-        padding:10px 0 10px 85px;
-        text-decoration: underline;
-        font-size: 40px;
-    }
-
 }
