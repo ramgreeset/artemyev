@@ -7,7 +7,17 @@
     }
     
     &_1{
+        position: relative;
         margin: 15px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        overflow: hidden;
+        &:hover .descr{
+            transform: translateY(-100%);
+            background-color: rgba(251, 253, 255, 0.938);
+            transition: 0.3s all;
+        }
+        
     }
     
     &__image{
@@ -16,10 +26,24 @@
         width: 500px;
         height: 300px;
         object-fit: cover;
-        &:hover{
-            transform: scale(1.02);
+        object-position: top;
+    }
+
+    .descr{
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        transform: translateY(-10%);
+        transition: 0.3s all;
+        background-color: rgba(215, 213, 222, 0.966);
+
+        &__title{
+            text-align: center;
+            color: rgb(0, 0, 0);
         }
     }
+
+
     .portfolio{
         text-transform: capitalize;
         font-variant: small-caps;
