@@ -1,15 +1,83 @@
-@media(max-width: 1200px){
-
+@media(max-width: 1589px){
+    .portfolio__card-image {
+        width: 644px;
+        height: 393px;
+    }
 }
 
-@media(max-width: 991px){
-    
+@media(max-width: 1347px){
+    .portfolio__card-image {
+        width: 557px;
+        height: 363px;
+    }
 }
 
-@media(max-width: 767px){
-    
+@media(max-width: 1173px){
+    .portfolio__card-image {
+        width: 481px;
+        height: 303px;
+    }
 }
 
-@media(max-width: 575px){
+@media(max-width:1021px){
+    .portfolio__card-image {
+        width: 448px;
+        height: 321px;
+    }
     
+    .skill {
+        padding: 0px 6px 0px 20px;
+        &__title {
+            font-size: 16px;
+            margin: 6px 0 4px 0;
+        }
+        &__item{
+            font-size: 14px;
+        }
+    }
+}
+
+@media(max-width:955px){
+    .portfolio__card-image {
+        width: 644px;
+        height: 393px;
+    }
+
+}
+@media(max-width:717px){
+    .header__inner{
+        justify-content: center;
+    }
+    .skills__title{
+        display: none;
+    }
+
+    .social {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .portfolio__title {
+        text-align: center;
+        padding: 0;
+    }
+    .skills__inner {
+        display: none;
+    }
+}
+@media(max-width:680px){
+    .portfolio__card-image {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:488px){
+    .portfolio__card-title {
+        margin-top: 2px;
+        font-size: 16px;
+    }
+    .skills__title {
+        margin-right: 5px;
+        font-size: 18px;
+    }
 }

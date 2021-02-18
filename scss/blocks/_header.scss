@@ -4,69 +4,72 @@
         padding-top: 10px;
 
     }
+}
 
-    .profile {
-        font-size: 20px;
-        text-align: center;
-        font-weight: 600;
-        padding-left: 20px;
+.profile {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding-left: 20px;
 
-        &__name{
-            margin-bottom: 10px;
-        }
-
-        &__photo {
-            height: 270px;
-            width: 270px;
-            object-fit: cover;
-            border: 2px solid #000;
-            margin:0 20px 4px 0;
-            border-radius: 100%;
-        }
+    &__name {
+        margin-bottom: 10px;
     }
 
-
-    .skills {
-        color: rgb(0, 0, 0);
-        padding-top: 10px;
-
-        .skill {
-            padding: 10px 20px 10px 20px;
-
-            &__title{
-                margin-bottom: 7px;
-            }
-            &__list {
-                padding-left: 10px;
-            }
-            &__item{
-                margin-bottom: 7px;
-            }
-        }
-
-        &__inner {
-            display: flex;
-            flex-wrap: wrap;
-
-        }
-    }
-    .social {
-        height: 60px;
-        border-top: 3px solid $social-border;
-        // border-bottom: 3px solid $social-border;
-        display: flex;
-        align-items: center;
-        padding-left: 62px;
-        
-        svg{
-            margin: 0 6px;
-            width: 40px;
-            height: 40px;
-            transition: 0.3s all;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
+    &__photo {
+        height: 270px;
+        width: 270px;
+        object-fit: cover;
+        border: 2px solid #000;
+        margin: 0 20px 4px 0;
+        border-radius: 100%;
     }
 }
 
+
+.skills {
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+.skill {
+    padding: 0px 20px 0px 20px;
+
+    &__title {
+        margin: 7px 0 10px 0;
+    }
+
+    &__list {
+        padding-left: 10px;
+    }
+
+    &__item {
+        margin-bottom: 7px;
+    }
+}
+
+.social {
+    height: 60px;
+    border-top: 3px solid $social-border;
+    // border-bottom: 3px solid $social-border;
+    display: flex;
+    align-items: center;
+    padding-left: 62px;
+
+    svg {
+        margin: 0 6px;
+        width: 40px;
+        height: 40px;
+        transition: 0.3s all;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
