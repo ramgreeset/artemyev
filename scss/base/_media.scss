@@ -45,11 +45,20 @@
 
 }
 @media(max-width:717px){
+    .profile {
+        font-size: 15px;
+    }
+
     .header__inner{
-        justify-content: center;
+        // justify-content: center;
     }
     .skills__title{
         display: none;
+    }
+
+    .profile__photo {
+        height: 200px;
+        width: 200px;
     }
 
     .social {
@@ -62,13 +71,17 @@
         padding: 0;
     }
     .skills__inner {
-        display: none;
+        // display: none;
     }
 }
 @media(max-width:680px){
     .portfolio__card-image {
         width: 100%;
         height: 100%;
+    }
+    .profile__photo {
+        height: 150px;
+        width: 150px;
     }
 }
 @media(max-width:488px){
@@ -79,5 +92,17 @@
     .skills__title {
         margin-right: 5px;
         font-size: 18px;
+    }
+    .profile {
+        font-size: 15px;
+    }
+}
+@media(max-width:433px){
+    .profile__photo {
+        height: 100px;
+        width: 100px;
+    }
+    .skill {
+        padding: 0px 6px 0px 10px;
     }
 }

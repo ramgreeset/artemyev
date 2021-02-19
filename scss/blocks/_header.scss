@@ -20,9 +20,8 @@
         height: 270px;
         width: 270px;
         object-fit: cover;
-        border: 2px solid #000;
-        margin: 0 20px 4px 0;
         border-radius: 100%;
+        text-align: center;
     }
 }
 
@@ -60,16 +59,20 @@
     // border-bottom: 3px solid $social-border;
     display: flex;
     align-items: center;
-    padding-left: 62px;
+    padding-left: 50px;
 
     svg {
         margin: 0 6px;
         width: 40px;
-        height: 40px;
         transition: 0.3s all;
-
         &:hover {
             transform: scale(1.1);
         }
+    }
+    .whatsapp{
+        width: 47px;
+    }
+    .instagram{
+        width: 38px;
     }
 }
