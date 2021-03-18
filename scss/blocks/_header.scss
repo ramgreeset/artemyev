@@ -1,56 +1,18 @@
 .header {
-    &__inner {
-        display: flex;
-        padding-top: 10px;
-
-    }
 }
 
 .profile {
-    font-size: 20px;
-    text-align: center;
-    font-weight: 600;
+    padding: 10px 0;
     padding-left: 20px;
-
-    &__name {
-        margin-bottom: 10px;
-    }
-
-    &__photo {
-        height: 270px;
-        width: 270px;
-        object-fit: cover;
-        border-radius: 100%;
-        text-align: center;
-    }
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
-
-.skills {
-    color: rgb(0, 0, 0);
-    padding-top: 10px;
-
-    &__inner {
-        display: flex;
-        flex-wrap: wrap;
-
-    }
+.profile__name {
 }
-
-.skill {
-    padding: 0px 20px 0px 20px;
-
-    &__title {
-        margin: 7px 0 10px 0;
-    }
-
-    &__list {
-        padding-left: 10px;
-    }
-
-    &__item {
-        margin-bottom: 7px;
-    }
+.profile__profession{
+    padding-left: 30px;
 }
 
 .social {
