@@ -24,16 +24,15 @@
     box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.13);
 
     &:hover .portfolio__card-descr {
-        transform: translateY(-100%);
+        transform: translateY(-50%);
         background-color: rgba(251, 253, 255, 0.938);
         transition: 0.3s all;
     
     }
 
     &-title {
-        text-align: center;
         color: rgb(0, 0, 0);
-        margin-top: 5px;
+        margin: 5px 0 20px;
     }
 
     &-image {
@@ -52,6 +51,18 @@
         transform: translateY(-10%);
         transition: 0.3s all;
         background-color: rgba(215, 213, 222, 0.966);
+        text-align: center;
+        font-weight: 600;
 
     }
+    &-text{
+        margin-bottom: 20px;
+        padding: 0 70px;
+    }
+    .icon { 
+        width: 86px;
+        height: 30px;
+        margin-right: 4px;
+        transform: translateY(7px);
+      }
 }
