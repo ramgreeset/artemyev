@@ -1,0 +1,29 @@
+.footer__profile {
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: right;
+}
+.footer__social {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 50px;
+
+    svg {
+        margin: 0 6px;
+        width: 30px;
+        transition: 0.3s all;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    .whatsapp{
+        width: 35px;
+    }
+    .instagram{
+        width: 28px;
+    }
+}
